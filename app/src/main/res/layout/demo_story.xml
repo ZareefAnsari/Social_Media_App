@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <View
+            android:id="@+id/view16"
+            android:layout_width="@dimen/_130mdp"
+            android:layout_height="@dimen/_85mdp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/post_back"
+            android:backgroundTint="#D5D5D5"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <View
+            android:id="@+id/view17"
+            android:layout_width="36dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/circle"
+            android:backgroundTint="#9E9D9D"
+            app:layout_constraintStart_toStartOf="@+id/view16"
+            app:layout_constraintTop_toTopOf="@+id/view16" />
+
+        <View
+            android:id="@+id/view18"
+            android:layout_width="90dp"
+            android:layout_height="14sp"
+            android:layout_marginStart="4dp"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/post_back"
+            android:backgroundTint="#9E9D9D"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/view16" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</RelativeLayout>
